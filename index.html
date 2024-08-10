@@ -1,72 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> <link rel="stylesheet" href="./css/style.css">
+    <title>My website</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
     <header>
-        <h1>My Simple Website 🤒👽</h1>
+        <nav class="nav">
+            <div class="logo">My simple website 🧃</div>
+            <ul class="nav-links">
+                <li><a href="#welcome"><i class='bx bxs-home'></i> Welcome</a></li>
+                <li><a href="#about-us"><i class='bx bxs-info-circle'></i> About Us</a></li>
+                <li><a href="#our-service"> Our Services</a></li>
+                <li><a href="#card-container"><i class='bx bxs-briefcase-alt-2'></i> Our Portfolio</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="container">
-       <main>
-        <section id="welocme">
-            <h2>Welcome to My Website❄️</h2>
-            <p>This is the main content area where you can introduce your website.</p>
-        </section>
-        <section id="about-us">
-            <h2>About Us</h2>
-            <p>Information about company or website. Here your can talk about your mission,vision and values.</p>
-        </section>
-        <section id="our-service">
-            <div class="card-container">
-                <div class="card">
-                    <img src="./image/Bangkog.jpg" alt="">
-                    <h3>Bakong-ABA Transfers</h3>
-                    <p>Details about this the first services</p>
-                    <button>Read more>></button>
+        <main>
+            <section id="welocme">
+                <h2>Welcome to My Website</h2>
+                <p>This is the main content area where you can introduce your website.</p>
+            </section>
+            <section id="about-us">
+                <h2>About Us</h2>
+                <p>Information about company or website. Here your can talk about your mission,vision and values.</p>
+            </section>
+            <section id="our-service">
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./image/Bangkog.jpg" alt="">
+                        <h3><i class='bx bx-transfer'></i>Bakong-ABA Transfers</h3>
+                        <p>Details about this the first services</p>
+                        <button>Read more>></button>
+                    </div>
+                    <div class="card">
+                        <img src="./image/tak.jpg" alt="">
+                        <h3><i class='bx bxs-calculator'></i>Tax Collection</h3>
+                        <p>Details about this the second services</p>
+                        <button>Read more>></button>
+                    </div>
+                    <div class="card">
+                        <img src="./image/ABA.jpg" alt="">
+                        <h3><i class='bx bx-money'></i>Payroll Services</h3>
+                        <p>Details about this the third services</p>
+                        <button>Read more>></button>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="./image/tak.jpg" alt="">
-                    <h3>Tax Collection</h3>
-                    <p>Details about this the second services</p>
-                    <button>Read more>></button>
+            </section>
+            <section>
+                <h2>Our Portfolio<i class='bx bx-images'></i> </h2>
+                <div id="card-container">
+                    <div id="card">
+                        <img src="./image/Bangkog.jpg" alt="">
+                        <h3><i class='bx bxs-folder-open'></i><strong> Project One</strong></h3>
+                        <p>Description of project one.</p>
+                    </div>
+                    <div id="card">
+                        <img src="./image/tak.jpg" alt="">
+                        <h3><i class='bx bxs-folder-open'></i><strong>Project Two</strong> </h3>
+                        <p>Description of project two.</p>
+                    </div>
+                    <div id="card">
+                        <img src="./image/ABA.jpg" alt="">
+                        <h3><i class='bx bxs-folder-open'></i><strong> Project Three</strong></h3>
+                        <p>Description of project three.</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="./image/ABA.jpg" alt="">
-                    <h3>Payroll Services</h3>
-                    <p>Details about this the third services</p>
-                    <button>Read more>></button>
-                </div>
-            </div>
-        </section>
-        <section id="our-portfolio">
-            <h2>Our Portfolio </h2>
-            <div id="card-container">
-                <div id="card">
-                    <img src="./image/Bangkog.jpg" alt="">
-                    <h3><strong> Project One</strong></h3>
-                    <p>Description of project one.</p>
-                </div>
-                <div id="card">
-                    <img src="./image/tak.jpg" alt="">
-                    <h3><strong>Project Two</strong> </h3>
-                    <p>Description of project two.</p>
-                </div>
-                <div id="card">
-                    <img src="./image/ABA.jpg" alt="">
-                    <h3><strong> Project Three</strong></h3>
-                    <p>Description of project three.</p>
-                </div>
-            </div>
-        </section>
-       </main>
-       <aside></aside>
+            </section>
+        </main>
+        <aside>
+            <section class="about">
+                <h3>About This Website<i class='bx bxs-info-circle'></i></h3>
+                <p>This website is designed to showcase our services and portfolio.Explore our offerings and learn more
+                    about us!<i class='bx bxs-bulb'></i></p>
+            </section>
+            <section class="link">
+                <h4>Useful Links <i class='bx bx-link'></i></h4>
+                <ul>
+                    <li><a href="#Welcome"><i class='bx bx-right-arrow-alt'></i>Welcome Section</a></li>
+                    <li><a href="#about-us"><i class='bx bx-right-arrow-alt'></i>Learn More About Us</a></li>
+                    <li><a href="#our-service"><i class='bx bx-right-arrow-alt'></i>Explore Our Services</a></li>
+                    <li><a href="#our-portfolio"><i class='bx bx-right-arrow-alt'></i>View Our Portfolio</a></li>
+                </ul>
+            </section>
+            <section class="about">
+                <h4>Contact Us <i class='bx bxs-envelope'></i></h4>
+                <p>If you have any questions,feel free to</p>
+                <a href="#contact-us"><i class='bx bxs-envelope'></i>contact us</a>!
+            </section>
+        </aside>
     </div>
     <footer>
         <p>© 2024 My Simple Website</p>
     </footer>
-    
+
 </body>
+
 </html>
